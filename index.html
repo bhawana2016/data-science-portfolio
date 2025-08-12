@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Bhawana Gupta — OCI Data Science & ML Engineer</title>
+  <meta name="description" content="Bhawana Gupta — OCI Data Science portfolio: OCI Data Science, Autonomous DB, OML4Py, MLOps" />
+  <style>
+    /* Minimal clean styling suitable for GitHub Pages. Customize colors to match OCI blue. */
+    :root{--bg:#0f1724;--card:#0b1220;--muted:#9aa4b2;--accent:#1187d6;--glass:rgba(255,255,255,0.03)}
+    *{box-sizing:border-box}
+    body{font-family:Inter,system-ui,-apple-system,"Segoe UI",Roboto,'Helvetica Neue',Arial;margin:0;background:linear-gradient(180deg,var(--bg),#06101a);color:#e6eef6;line-height:1.5}
+    .container{max-width:980px;margin:36px auto;padding:24px}
+    header{display:flex;align-items:center;gap:18px}
+    .avatar{width:96px;height:96px;border-radius:12px;background:linear-gradient(135deg,var(--accent),#6ed0ff);display:flex;align-items:center;justify-content:center;font-weight:700;color:#01243a}
+    h1{margin:0;font-size:28px}
+    p.lead{color:var(--muted);margin:6px 0 0}
+    nav{margin-left:auto}
+    .nav-links a{color:var(--muted);text-decoration:none;margin-left:12px;font-size:14px}
+
+    .grid{display:grid;grid-template-columns:1fr 320px;gap:24px;margin-top:28px}
+    .card{background:var(--card);padding:18px;border-radius:12px;box-shadow:0 6px 18px rgba(2,6,23,0.6)}
+    .project{display:flex;gap:14px;align-items:flex-start}
+    .proj-thumb{width:90px;height:72px;background:var(--glass);border-radius:8px;flex-shrink:0;display:flex;align-items:center;justify-content:center;color:var(--muted);font-size:12px}
+    .proj-title{margin:0;font-size:16px}
+    .proj-desc{color:var(--muted);margin:6px 0 0;font-size:14px}
+    .tags{margin-top:10px}
+    .tag{display:inline-block;background:rgba(255,255,255,0.04);padding:6px 8px;border-radius:8px;font-size:12px;color:var(--muted);margin-right:8px}
+
+    .skills{display:flex;flex-wrap:wrap;gap:10px}
+    .skill{background:rgba(255,255,255,0.03);padding:8px 10px;border-radius:8px;font-size:13px;color:var(--muted)}
+
+    aside .small{color:var(--muted);font-size:13px}
+    .btn{display:inline-block;background:var(--accent);color:#01243a;padding:10px 14px;border-radius:10px;font-weight:600;text-decoration:none}
+
+    footer{margin-top:36px;color:var(--muted);font-size:13px;text-align:center}
+
+    @media(max-width:900px){.grid{grid-template-columns:1fr;}.nav-links{display:none}}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="avatar">BG</div>
+      <div>
+        <h1>Bhawana Gupta</h1>
+        <p class="lead">Turning Oracle Cloud data into production-ready ML solutions — OCI Data Science, Autonomous DB, OML4Py, MLOps</p>
+      </div>
+      <nav class="nav-links">
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <div class="grid">
+      <main>
+        <section id="projects" class="card">
+          <h2 style="margin-top:0">Selected Projects</h2>
+
+          <!-- Project 1: Churn Prediction -->
+          <article class="project" style="margin-top:12px">
+            <div class="proj-thumb">Notebook</div>
+            <div style="flex:1">
+              <h3 class="proj-title">Churn Prediction — OCI Data Science + Autonomous DB</h3>
+              <p class="proj-desc">Built an end-to-end pipeline to predict customer churn using historical usage data. Model served via OCI Data Science deployment and batch-scored into Autonomous DB.</p>
+              <div class="tags" style="margin-top:8px">
+                <span class="tag">Python</span><span class="tag">OCI Data Science</span><span class="tag">Autonomous DB</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2: Forecasting -->
+          <article class="project">
+            <div class="proj-thumb">Chart</div>
+            <div style="flex:1">
+              <h3 class="proj-title">Cloud Resource Forecasting</h3>
+              <p class="proj-desc">Time-series forecasting of compute & storage usage to optimize capacity planning; integrated with OCI Object Storage for data pipeline storage.</p>
+              <div class="tags"><span class="tag">Prophet</span><span class="tag">OCI</span><span class="tag">MLOps</span></div>
+            </div>
+          </article>
+
+          <!-- Project 3: Anomaly Detection -->
+          <article class="project">
+            <div class="proj-thumb">Stream</div>
+            <div style="flex:1">
+              <h3 class="proj-title">DB Metrics Anomaly Detection (Real-time)</h3>
+              <p class="proj-desc">Streaming anomaly detection on Autonomous DB metrics using OCI Streaming and OCI Data Science models to trigger alerts and proactive remediation flows.</p>
+              <div class="tags"><span class="tag">Streaming</span><span class="tag">Anomaly Detection</span><span class="tag">OCI</span></div>
+            </div>
+          </article>
+
+          <!-- Add more projects by duplicating the article block. Replace thumbnails with screenshots or GIFs. -->
+
+        </section>
+
+        <section id="about" class="card" style="margin-top:18px">
+          <h2 style="margin-top:0">About</h2>
+          <p class="proj-desc">I’m an Oracle Database testing engineer transitioning to Data Science. I focus on reproducible ML pipelines on OCI, leveraging Autonomous Database, OML4Py and OCI Data Science to ship models fast and safely.</p>
+          <p class="proj-desc" style="margin-top:8px">Availability: Open to internal Oracle Data Science roles. If you’re on the OCI DS team and want to collaborate or see internal project artifacts, please reach out.</p>
+        </section>
+
+      </main>
+
+      <aside>
+        <div class="card">
+          <h3 style="margin-top:0">Skills & Tools</h3>
+          <div class="skills" style="margin-top:12px">
+            <div class="skill">OCI Data Science</div>
+            <div class="skill">Autonomous Database</div>
+            <div class="skill">OML4Py</div>
+            <div class="skill">Python / Pandas / Scikit-learn</div>
+            <div class="skill">MLOps & Deployment</div>
+            <div class="skill">SQL & PL/SQL</div>
+          </div>
+
+          <h3 style="margin-top:18px">Certifications</h3>
+          <p class="small">OCI Data Science Professional (2025)<br>OCI AI Foundations<br>OML4Py Specialist</p>
+
+          <h3 style="margin-top:18px">Quick Links</h3>
+          <p style="margin:0;margin-top:8px"><a class="btn" href="#projects">View Projects</a></p>
+          <p style="margin-top:10px" class="small">GitHub: <em>replace-with-your-github</em><br>LinkedIn: <em>replace-with-linkedin</em></p>
+
+        </div>
+
+        <div class="card" style="margin-top:16px">
+          <h3 style="margin-top:0">Contact</h3>
+          <p class="small">Email: <em>your.email@oracle.com</em><br>Internal: <em>@your-oracle-handle</em></p>
+          <p style="margin-top:10px"><a class="btn" href="#contact">Get in touch</a></p>
+        </div>
+      </aside>
+    </div>
+
+    <footer>
+      <p>Made with ❤️ — tailored for OCI Data Science roles. Instructions & repo setup in comments.</p>
+    </footer>
+  </div>
+
+  <!--
+    HOW TO USE THIS FILE
+    1) Replace placeholder text (project details, GitHub/LinkedIn, email) with your real info.
+    2) Replace project thumbnails with images: put them in /assets/ and update <div class="proj-thumb"> content to <img src="assets/xxx.png">
+    3) Add links to notebooks or PDF artifacts: wrap project title with <a href="link">.
+    4) To publish on GitHub Pages:
+       - git init
+       - git add index.html
+       - git commit -m "Initial portfolio"
+       - Create repo on GitHub and push: git remote add origin <url>; git branch -M main; git push -u origin main
+       - In repo settings -> Pages -> choose branch main / root -> Save
+    5) Want a README.md? Create one at repo root with a short intro and link to index.html.
+  -->
+
+</body>
+</html>
+
